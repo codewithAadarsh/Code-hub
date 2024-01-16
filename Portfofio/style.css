@@ -1,0 +1,308 @@
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: black;
+}
+
+/* Add smooth scrolling behavior */
+html {
+  scroll-behavior: smooth;
+}
+.hey {
+  color: red;
+  font-size: 40px;
+}
+.sig {
+  color: crimson;
+}
+
+/* Body styles */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: wheat;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+}
+
+/* Web section styles */
+.web {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Header section styles */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: fixed;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.9); /* Add some transparency to the background */
+  padding: 10px;
+  z-index: 1;
+  transition: height 0.3s ease; /* Added transition property */
+}
+
+.head {
+  display: flex;
+}
+
+.nav {
+  display: flex;
+  margin-right: 1cm;
+}
+
+ul li {
+  display: flex;
+  color: red;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  float: left;
+  margin: 10px;
+  transition: transform 0.3s ease; /* Added transition property */
+}
+
+ul li:hover a {
+  background-color: #080808;
+  color: whitesmoke;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  box-shadow: 2px 2px 10px black;
+  transform: scale(1.1); /* Add a scale effect on hover */
+}
+
+ul li a {
+  border: 2px transparent black;
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+.btnhire {
+  margin: auto;
+  margin-top: 7px;
+  margin-left: 21pc;
+  height: 30px;
+  width: 80px;
+  background: #080808;
+  color: whitesmoke;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  padding: 3px;
+  position: static;
+  transition: box-shadow 0.3s ease, transform 0.3s ease; /* Added transition properties */
+}
+
+.btnhire:hover {
+  box-shadow: 0 0 10px black;
+  cursor: pointer;
+  transform: scale(1.05); /* Add a scale effect on hover */
+}
+
+.logo {
+  margin-left: 10px;
+  margin-top: 8px;
+  margin-right: 100px;
+  margin-right: 15pc;
+  text-transform: capitalize;
+  font-size: larger;
+  font-weight: 100;
+  text-shadow: 1px 1px 2px;
+}
+
+/* Left section styles */
+.left {
+  margin-top: 14pc;
+  margin-left: 30px;
+  font-weight: bold;
+  font-size: 30px;
+  width: 50%;
+  float: left;
+}
+
+/* Right section styles */
+.right {
+  float: left;
+  width: 50%;
+}
+
+img {
+  width: auto;
+  height: 500px;
+  padding: 60px;
+}
+
+/* About me section styles */
+.me {
+  background-color: whitesmoke;
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: 14;
+}
+
+.abhead {
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.ab {
+  color: red;
+}
+
+.aboutpara {
+  border: 5px solid black;
+  border-radius: 10px;
+  padding: 3pc;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 8PX;
+  margin-bottom: 8px;
+  box-shadow: 5px 5px 10px;
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Added transition properties */
+}
+
+.aboutpara:hover {
+  background-color: crimson;
+  transition: color 1s;
+  transform: translateY(-5px); /* Add a slight upward movement on hover */
+}
+
+.btn2 {
+  width: 130px;
+  height: 50px;
+  border-radius: 5px;
+  border: 1px transparent black;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: rgb(226, 24, 24);
+  color: whitesmoke;
+  margin-left: 16.2cm;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease; /* Added transition properties */
+}
+
+.btn2:hover {
+  background-color: white;
+  color: black;
+  box-shadow: 1px 1px 4px;
+  transform: scale(1.05); /* Add a scale effect on hover */
+}
+
+/* Service section styles */
+.provide {
+  background-color: black;
+  color: white;
+}
+
+.para1 {
+  background-color: whitesmoke;
+  border: 5px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px;
+  height: 212px;
+  width: 300px;
+  margin: 20px;
+  padding: 18px;
+  float: left;
+  margin: 60px;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease; /* Added transition properties */
+}
+
+.para1:hover {
+  background-color: crimson;
+  transition: color 1s;
+  transform: scale(1.05); /* Add a scale effect on hover */
+}
+
+.contan:hover {
+  color: darkgray;
+}
+
+.contan {
+  color: orangered;
+}
+
+/* Experiences section styles */
+.exep {
+  border: whitesmoke;
+}
+
+.exe {
+  border: 5px solid black;
+  box-shadow: 5px 5px 10px;
+  border-radius: 10px;
+  padding: 30px;
+  margin: 40px;
+  width: 700px;
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Added transition properties */
+}
+
+.high {
+  color: red;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 40px 0;
+  text-align: center;
+  width: 100%;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.contact-info,
+.social-links {
+  flex: 1;
+}
+
+.contact-info h3,
+.social-links h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: orangered;
+}
+
+.contact-info p,
+.social-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-info a,
+.social-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.social-links ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.social-links li {
+  margin: 0 10px;
+  font-size: 24px;
+}
+
+.social-links a:hover {
+  color: orangered;
+  transform: scale(1.2);
+}

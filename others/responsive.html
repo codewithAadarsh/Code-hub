@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        header {
+            width: 100%;
+            height: 100px;
+            background-color: #fff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 60px;
+            border-bottom: 2px solid black;
+        }
+
+        header .logo {
+            color: black;
+            font-size: 6vh;
+            font-weight: 700;
+        }
+
+        header nav ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 28px;
+            list-style-type: none;
+            padding: 10px;
+            font-size: 3vh;
+            font-weight: 600;
+            padding: 2.5vh 4vh;
+        }
+         .menu {
+            display: none;
+        }
+
+        header button {
+            cursor: pointer;
+            transition: all 0.5s ease;
+            width: 20vh;
+            height: 6.5vh;
+            font-size: 3vh;
+            font-weight: 600;
+            padding: .01vh 3vh;
+            border: none;
+            outline: none;
+            background-color: #385A64;
+            color: white;
+            border-radius: 3px;
+        }
+
+        .container {
+            width: 100%;
+            height: calc(83vh + 3px);
+            display: flex;
+            flex-wrap: wrap;
+            position: absolute;
+        }
+
+        .right {
+            width: 55%;
+            height: calc(83vh + 3px);
+            padding: 2vh 4.9vh;
+        }
+
+        .right h1 {
+            margin-top: 6vh;
+            font-size: 3.5rem;
+            font-weight: 600;
+        }
+
+        .right h1 span {
+            color: #FF725C;
+        }
+
+        .right p {
+            line-height: 1.7;
+            color: #6c7a89;
+            font-size: 1.5rem;
+        }
+
+        .right button {
+            cursor: pointer;
+            transition: all 0.5s ease;
+            margin-top: 3.5vh;
+            width: 25vh;
+            height: 7.5vh;
+            font-size: 3vh;
+            font-weight: 600;
+            padding: .01vh 3vh;
+            border: none;
+            outline: none;
+            background-color: #FF725C;
+            color: white;
+            border-radius: 3px;
+        }
+
+        .left {
+
+            width: 45%;
+            height: calc(83vh + 3px);
+        }
+
+        .left img {
+            width: 100%;
+            height: 99%;
+            object-fit: contain;
+            padding: 2vh 4.9vh;
+        }
+
+        @media only screen and (max-width: 600px) {
+             nav ul li {
+              display: none;
+            }
+            .menu {
+                display: inline;
+                font-size: 40px;
+                font-weight: 600;
+            }
+            .container {
+                position: static;
+                padding: 2vh 0vh;
+            }
+            .right h1 {
+                font-size: 12vw;
+            }
+            .right p {
+                padding: 2vh 3vh;
+                font-size: 4vw;
+            }
+            .left  {
+                width: 100%;
+                height: auto;
+                
+            }
+            .right { 
+                width: 100%;
+                height: auto;
+            }
+            .right img {
+               
+                
+            }
+          }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            .logo
+        </div>
+        <nav>
+            <ul>
+                <li>Sales</li>
+                <li>Product</li>
+                <li>Latest</li>
+                <li>About</li>
+                <li>Contact Us</li>
+                <li><button>Sign In</button></li>
+                
+            </ul>
+        </nav>
+        <span class="material-symbols-outlined menu">
+            menu
+            </span>
+    </header>
+    <div class="container">
+        <div class="right">
+            <h1>Welcome to the Nepal best <span>Coders</span> world.</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde sed veniam numquam eveniet accusantium. Ad
+                sequi adipisci temporibus exercitationem officia nihil voluptatibus asperiores quas modi.
+            </p>
+            <button>Dowload CV</button>
+        </div>
+        <div class="left">
+            <img src="png.png" alt="">
+        </div>
+    </div>
+ 
+
+</body>
+
+</html>
